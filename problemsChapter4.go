@@ -20,4 +20,11 @@ func main() {
   fmt.Scanf("%f", &input)
   var output float64 = (((input * 9) / 5) + 32)
   fmt.Println(output, "degree F")
+
+  // exercise 4
+  fmt.Println("Convert a feet value into metres:")
+  var metresInput float64
+  fmt.Scanf("%f", &metresInput)
+  var metresOutput float64 = (metresInput * .348)
+  fmt.Println(metresOutput, "metres")
 }
