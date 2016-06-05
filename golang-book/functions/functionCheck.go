@@ -2,12 +2,17 @@ package main
 
 import "fmt"
 
+// custom function called in main
 func main() {
   xs := []float64{98,93,77,82,83}
+  fmt.Println(average(xs))
+}
 
+// custom function
+func average(xs []float64) float64 {
   total := 0.0
   for _, v := range xs {
     total += v
   }
-  fmt.Println(total/float64(len(xs)))
+  return (total/float64(len(xs)))
 }
