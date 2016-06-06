@@ -1,4 +1,4 @@
-This is where I commit all the programs I wrote while learning go. I followed the following :
+This is where I commit all the programs I wrote while learning go (wip). I followed the following :
 
  - [Go lang Intro book](https://www.golang-book.com/books/intro).
  - [Go by Example](https://gobyexample.com/).
